@@ -1,4 +1,7 @@
-# Audio
+# Device FP
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.build.fingerprint=google/coral/coral:10/QQ3A.200805.001/6578210:user/release-keys
+    # Audio
 PRODUCT_PROPERTY_OVERRIDES += \
     af.fast_track_multiplier=1 \
     vendor.audio_hal.period_size=240 \
